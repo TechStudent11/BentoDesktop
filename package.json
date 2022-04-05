@@ -1,7 +1,15 @@
 {
-  "name": "bento",
-  "version": "1.2.0",
-  "description": "🍱 Minimalist, elegant and hackable startpage inspired by the Bento box!",
-  "author": "Miguel Ávila",
-  "license": "ISC"
+  "name": "bento-desktop",
+  "version": "1.0.0",
+  "description": "A desktop version of Bento",
+  "main": "main.js",
+  "repository": "https://github.com/TechStudent11/BentoDesktop",
+  "author": "TechStudent11 <76978184+TechStudent11@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^18.0.2"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
 }

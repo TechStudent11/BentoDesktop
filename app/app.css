@@ -100,6 +100,22 @@ body {
   background-color: #00000000;
 }
 
+#windowExitButton {
+  position: absolute;
+  margin: 4em 2em 0 0;
+  right: 0;
+  top: 0;
+  color: var(--fg);
+  border: none;
+  cursor: pointer;
+  background-color: #00000000;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
 #themeIcon {
   width: 25px;
   height: 25px;
